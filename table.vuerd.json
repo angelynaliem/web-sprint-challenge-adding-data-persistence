@@ -37,7 +37,7 @@
   "table": {
     "tables": [
       {
-        "name": "project",
+        "name": "projects",
         "comment": "",
         "columns": [
           {
@@ -137,7 +137,7 @@
           "active": false,
           "left": 138,
           "top": 350,
-          "zIndex": 170,
+          "zIndex": 174,
           "widthName": 60,
           "widthComment": 60
         },
@@ -218,7 +218,7 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 668,
           "top": 348,
           "zIndex": 172,
@@ -228,7 +228,7 @@
         "id": "1a36ffda-888e-7c70-1e05-8d3d32270c0e"
       },
       {
-        "name": "task",
+        "name": "tasks",
         "comment": "",
         "columns": [
           {
@@ -351,14 +351,14 @@
           "active": false,
           "left": 140,
           "top": 623,
-          "zIndex": 171,
+          "zIndex": 178,
           "widthName": 60,
           "widthComment": 60
         },
         "id": "218adffe-641d-add8-6724-ed5fcd1d78bd"
       },
       {
-        "name": "project_resources",
+        "name": "projects_resources",
         "comment": "",
         "columns": [
           {
@@ -409,11 +409,11 @@
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 417,
           "top": 97,
-          "zIndex": 166,
-          "widthName": 105,
+          "zIndex": 180,
+          "widthName": 112,
           "widthComment": 60
         },
         "id": "0c321043-2795-86c0-da4c-b4faef56b0a4"
