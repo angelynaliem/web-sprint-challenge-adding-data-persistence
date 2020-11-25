@@ -11,7 +11,13 @@ async function findTasks() {
   try {
     const tasks = await db("tasks")
       .join("projects")
-      .select("project_name", "project_description");
+      .select(
+        "project_name",
+        "project_description",
+        "task_description",
+        "task_notes",
+        "task_completed"
+      );
     return tasks;
   } catch (err) {
     throw err;
