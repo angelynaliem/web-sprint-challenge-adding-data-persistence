@@ -10,13 +10,14 @@ module.exports = {
 async function findTasks() {
   try {
     const tasks = await db("tasks")
-      .join("projects")
+      .join("projects", "tasks.project_id", "projects.id")
       .select(
         "project_name",
         "project_description",
         "task_description",
         "task_notes",
         "task_completed"
+        // "tasks.project_id"
       );
     return tasks;
   } catch (err) {
