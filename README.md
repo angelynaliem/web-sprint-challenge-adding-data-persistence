@@ -45,9 +45,20 @@ Commit your code regularly and meaningfully.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+
+- Relational Databases is software and system and SQL is the language used to interact/query with the software/system. Sqlite, Postgres, MySQL are all relational databases and SQL is the language used to interact with all of them.
+
 2. Why do tables need a Primary Key?
+
+- They need a primary key to make the row of the table unique, and they can use it to form a relationship with other tablles.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+
+- Foreign key
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+
+- Junction/intermediary table
 
 ## Instructions
 
